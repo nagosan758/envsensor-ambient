@@ -30,7 +30,7 @@ while True:
         if data.tick_last_update > latest_update:
             am.send({
                 'created': data.tick_last_update.strftime('%Y-%m-%d %H:%M:%S'),
-                'd1': data.val_temp,
+                'd5': data.val_temp,
                 }
             )
 
